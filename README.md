@@ -94,4 +94,23 @@ To deploy manually:
 npm run build
 ```
 
+---
+
+### 🤝 Contribute & Be a Part of Educare!
+
+We truly believe **great projects grow with great people**.  
+Whether you’re a beginner, student, or experienced developer — **your ideas matter!**
+
+💡 Want to fix a bug?  
+✨ Have a cool feature idea?  
+🎨 Want to improve UI, animations, or performance?
+
+**You are welcome to contribute!**
+
+📌 Just fork the repository, make your changes, and open a pull request.  
+We’ll review it with ❤️ and merge if it fits the project.
+
+> 🌱 *Let’s build a better learning platform together — one commit at a time!*
+
+---
 
