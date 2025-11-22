@@ -1,16 +1,97 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🎓 Educare – Modern Responsive Education Website (React + Vite)
 
-Currently, two official plugins are available:
+Educare is a modern, professional, and fully responsive education website developed using **React + Vite**.  
+It showcases university branding, promoted programs, campus stories, student testimonials, and a contact info section.  
+Educare is designed to give visitors a real-college experience through a clean UI, dynamic multimedia elements, and smooth interactions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 **Live Website:** https://educare-96.netlify.app/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Key Features
 
-## Expanding the ESLint configuration
+### 🏫 Modern UI & Clean Design
+- Attractive hero banner with CTA button
+- Smooth transitions and animations
+- Uses brand-friendly color palette and typography
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 📱 Fully Responsive UI (Desktop + Tablet + Mobile)
+- Adjusts layout for all screen sizes
+- breakpoint logic optimized for <400px screens
+- No right-side overflow (fixed for small screens)
+
+### 🎥 Custom Modal Video Player
+- Opens on click in About section
+- Auto-plays muted and can be paused manually
+- Clicking outside the video closes player
+- Locks scrolling while video is open
+
+### 💬 Interactive Testimonials Slider
+- Shows **2 cards on Desktop**, **1 card on Mobile**
+- Navigation arrows: next/previous slide
+- Sliding logic powered by `translateX()`  
+- Smooth sliding animation using CSS transitions
+
+### 🍔 Mobile Navigation Menu
+- Collapsible hamburger menu
+- Slide-in / slide-out animation
+- Prevents right overflow & keeps clean scrolling
+- Auto-hide on navigating items
+
+### 📌 Sections Included
+| Section Name | Description |
+|--------------|-------------|
+| Hero Banner | Powerful heading, intro & CTA |
+| Programs | Featured academic programs |
+| About + Video | University story with video |
+| Campus | High-quality images of campus |
+| Testimonials | Student reviews slider |
+| Contact | Contact info & message section |
+| Footer | Copyright & social style UI |
+
+---
+
+## 🛠️ Technologies Used
+
+| Category | Tech |
+|----------|-----|
+| Frontend | React (Vite) |
+| Styling | Pure CSS + Media Queries |
+| Deployment | Netlify |
+| Font | Google Font: *Outfit* |
+| Media | PNG, SVG, MP4 assets |
+
+---
+
+## ▶️ Run Locally
+
+### 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/yourusername/educare.git
+cd educare
+```
+
+### 2️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+### 3️⃣ Start Development Server
+
+```bash
+npm run dev
+```
+
+🌍 Deployment
+
+Project is deployed on Netlify
+
+To deploy manually:
+```bash
+npm run build
+```
+
+
