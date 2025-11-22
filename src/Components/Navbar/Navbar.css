@@ -34,7 +34,7 @@ nav ul li{
 
 /* --- Media Queries ---*/
 
-@media(max-width:100px){
+@media(max-width:1000px){
 
     .logo{
         width: 140px;
@@ -75,5 +75,6 @@ nav ul li{
     }
     .hide-menu-icon{
         right: -200px;
+         
     }
 }

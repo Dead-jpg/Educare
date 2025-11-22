@@ -46,3 +46,27 @@
         margin: 15px auto 20px;
     }
 }
+
+@media (max-width: 480px) {
+    .hero p {
+        width: 90%;
+        font-size: 12px;
+        line-height: 1.4;
+        word-wrap: break-word;
+        hyphens: auto;
+    }
+  
+   
+
+}
+@media (max-width:400px) {
+
+     .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+    html, body {
+    overflow-x: hidden;
+  }
+    
+}
