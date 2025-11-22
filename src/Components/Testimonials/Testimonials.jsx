@@ -41,7 +41,7 @@ const Testimonials = () => {
                     <div className="user-info">
                         <img src={user_1} alt=''/>
                     <div>
-                        <h3>William Johnson</h3>
+                        <h3>Emily Carter</h3>
                         <span>Edusity,USA</span>
                     </div>
                     </div>
@@ -58,8 +58,8 @@ const Testimonials = () => {
                     <div className="user-info">
                          <img src={user_2} alt=''/>
                     <div>
-                        <h3>William Johnson 2</h3>
-                        <span>Edusity,USA</span>
+                        <h3>Arjun Mehta</h3>
+                        <span>Edusity,India</span>
                     </div>
                     </div>
                    
@@ -76,8 +76,8 @@ const Testimonials = () => {
                    <div className="user-info">
                      <img src={user_3} alt=''/>
                     <div>
-                        <h3>William Johnson 3</h3>
-                        <span>Edusity,USA</span>
+                        <h3>Sofia Martinez</h3>
+                        <span>Edusity,Spain</span>
                     </div>
                    </div>
                     <p>Choosing to pursue my degree at Edusity was one of the
@@ -93,8 +93,8 @@ const Testimonials = () => {
                     <div className="user-info">
                         <img src={user_4} alt=''/>
                     <div>
-                        <h3>William Johnson 4</h3>
-                        <span>Edusity,USA</span>
+                        <h3>Daniel Kim</h3>
+                        <span>Edusity,South Korea</span>
                     </div>
                     </div>
                     <p>Choosing to pursue my degree at Edusity was one of the
