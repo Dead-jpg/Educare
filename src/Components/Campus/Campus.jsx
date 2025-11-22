@@ -16,7 +16,10 @@ const Campus = () => {
             <img src={gallery_4} alt=''/>
 
         </div>
-        <button className='btn dark-btn'>See More<img src={white_arrow}alt=''/></button>
+        <button onClick={() => {
+  document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
+}}
+className='btn dark-btn'>See More<img src={white_arrow}alt=''/></button>
 
     </div>
   )

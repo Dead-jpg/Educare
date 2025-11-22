@@ -11,7 +11,9 @@ const Hero = () => {
                  with the knowledge , skills , and experiences needed to excel in 
                  dynamic fields of education</p>
 
-                 <button className='btn'>Explore more <img src={dark_arrow} alt=''/></button>
+                 <button className='btn' onClick={() => {
+  document.getElementById("programs").scrollIntoView({ behavior: "smooth" });
+}}>Explore more <img src={dark_arrow} alt=''/></button>
 
         </div>
     </div>
